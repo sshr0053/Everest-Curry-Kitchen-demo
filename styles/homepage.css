@@ -1,2 +1,45 @@
+body {
+    margin: 0px;
+}
+
+.left-column {
+    display: flex;
+}
+
+.left-column > .logo {
+    padding-right: 10px;
+}
+
+.address {
+    display: flex;
+}
+
+.right-column {
+    display: flex;
+}
+
+.right-column > .navigation-wrapper {
+
+}
+
+.center {
+    align-items: center;
+    justify-content: center;
+}
+.center > .center-img img {
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.map-wrapper {
+    display: flex;
+}
+
+.map-wrapper > .center-map iframe{
+    width: 100vw;
+}
+
 
 
